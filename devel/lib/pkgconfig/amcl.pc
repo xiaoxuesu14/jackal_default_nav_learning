@@ -1,0 +1,8 @@
+prefix=/home/xuesu/jackal_ws/devel
+
+Name: amcl
+Description: Description of amcl
+Version: 1.14.4
+Cflags: -I/home/xuesu/jackal_ws/devel/include -I/home/xuesu/jackal_ws/src/navigation/amcl/include
+Libs: -L/home/xuesu/jackal_ws/devel/lib -lamcl_sensors -lamcl_map -lamcl_pf
+Requires: rosbag roscpp dynamic_reconfigure tf nav_msgs std_srvs

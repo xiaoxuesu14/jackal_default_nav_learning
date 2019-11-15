@@ -1,0 +1,8 @@
+prefix=/home/xuesu/jackal_ws/install
+
+Name: move_base
+Description: Description of move_base
+Version: 1.14.4
+Cflags: -I/home/xuesu/jackal_ws/install/include
+Libs: -L/home/xuesu/jackal_ws/install/lib 
+Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp
